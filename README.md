@@ -1,16 +1,47 @@
-# guess_the_number_game
+# 🎉 Guess The Number Game
 
-A new Flutter project.
+A simple mobile game built with Flutter where the player has a set number of attempts to guess a randomly generated number. Customize the range and number of attempts for added fun!
+
+## Features
+
+- **Random Number Generation**
+- **Configurable Range and Attempts**
+- **Win/Loss Screens with Replay Option**
+- **Hints for Higher/Lower Guesses**
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+1. **Clone the repository**:
+```bash
+   git clone https://github.com/samalss/GuessTheNumberGame.git
+   cd GuessTheNumberGame
+```
 
-A few resources to get you started if this is your first Flutter project:
+2. **Install dependencies**:
+```bash
+   flutter pub get
+```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+3. **Run the app**:
+```bash
+   flutter run
+```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+4. **Run tests**:
+```bash
+   flutter test
+```
+
+## Project Structure
+
+- `lib/` - Main app code (screens, widgets, BLoC files)
+- `assets/` - Game assets (fonts, images)
+- `test/` - Unit and widget tests
+
+## Requirements
+
+- **Flutter SDK**: [Install Flutter](https://flutter.dev/docs/get-started/install)
+
+---
+
+Enjoy guessing! 🎲

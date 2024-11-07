@@ -1,6 +1,6 @@
 # 🎉 Guess The Number Game
 
-A simple mobile game built with Flutter where the player has a set number of attempts to guess a randomly generated number. Customize the range and number of attempts for added fun!
+A simple mobile game built with Flutter where the player has a set number of attempts to guess a randomly generated number.
 
 ## Features
 

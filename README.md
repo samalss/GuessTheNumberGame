@@ -34,9 +34,12 @@ A simple mobile game built with Flutter where the player has a set number of att
 
 ## Project Structure
 
-- `lib/` - Main app code (screens, widgets, BLoC files)
-- `assets/` - Game assets (fonts, images)
-- `test/` - Unit and widget tests
+- `lib/`: Contains the main Dart code for the app.
+  - `bloc/`: Business Logic Component files for state management (using BLoC pattern).
+  - `screens/`: UI screens such as the game screen, result screen, and settings dialog.
+  - `widgets/`: Reusable widgets for various UI components.
+- `assets/`: Contains fonts and other assets.
+- `test/`: Contains unit and widget tests for the project.
 
 ## Requirements
 
